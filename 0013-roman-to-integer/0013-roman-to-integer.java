@@ -1,25 +1,24 @@
-import java.util.HashMap;
-
 class Solution {
     public int romanToInt(String s) {
-    	HashMap<String, Integer> h1 = new HashMap<String, Integer>();
-    	h1.put("I",1);
-    	h1.put("V",5);
-    	h1.put("X",10);
-    	h1.put("L",50);
-    	h1.put("C",100);
-    	h1.put("D",500);
-    	h1.put("M",1000);
-    	int result = 0;
+    	HashMap<Character, Integer> hash = new HashMap<>();
+    	int sum = 0;
+    	hash.put('I' , 1);
+    	hash.put('V' , 5);
+    	hash.put('X' , 10);
+    	hash.put('L' , 50);
+    	hash.put('C' , 100);
+    	hash.put('D' , 500);
+    	hash.put('M' , 1000);
     	
-        String[] str_arr = s.split("");
-        for(int i =0; i<str_arr.length-1; i++) {
-        	if(h1.get(str_arr[i]) > h1.get(str_arr[i+1]) || h1.get(str_arr[i]) == h1.get(str_arr[i+1]))
-        		result += h1.get(str_arr[i]);
-        	else
-        		result -= h1.get(str_arr[i]); 
-        }
-        result = result + h1.get(str_arr[str_arr.length - 1]); 
-        return result;
+    	for(int i =0; i<s.length(); i++) {
+    		if(i<s.length() - 1 && hash.get(s.charAt(i)) < hash.get(s.charAt(i+1))) {
+    			sum += hash.get(s.charAt(i+1)) - hash.get(s.charAt(i));
+    			i++;
+    		}else {
+    			sum += hash.get(s.charAt(i));
+    		}
+    	}
+    	System.out.println(sum);
+    	return sum;
     }
 }
