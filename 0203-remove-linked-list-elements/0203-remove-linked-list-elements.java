@@ -10,20 +10,18 @@
  */
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
-        ListNode dummy = new ListNode(0);  // 더미 노드 생성
+        ListNode dummy = new ListNode(-1);
         dummy.next = head;
         ListNode before = dummy;
         ListNode temp = head;
-        
-        while (temp != null) {
-            if (temp.val == val) {
-                before.next = temp.next;  // 노드 제거
-            } else {
+        while(temp != null){
+            if(temp.val == val){
+                before.next = temp.next;
+            } else{
                 before = temp;
             }
             temp = temp.next;
         }
-        
-        return dummy.next;  // 새로운 head 반환
+        return dummy.next;
     }
 }
