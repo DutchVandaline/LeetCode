@@ -35,17 +35,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0141-linked-list-cycle](https://github.com/DutchVandaline/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0203-remove-linked-list-elements](https://github.com/DutchVandaline/LeetCode/tree/master/0203-remove-linked-list-elements) |
+| [0234-palindrome-linked-list](https://github.com/DutchVandaline/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DutchVandaline/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Two Pointers
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/DutchVandaline/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0234-palindrome-linked-list](https://github.com/DutchVandaline/LeetCode/tree/master/0234-palindrome-linked-list) |
 ## Recursion
 |  |
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/DutchVandaline/LeetCode/tree/master/0203-remove-linked-list-elements) |
+| [0234-palindrome-linked-list](https://github.com/DutchVandaline/LeetCode/tree/master/0234-palindrome-linked-list) |
 ## Math
 |  |
 | ------- |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DutchVandaline/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+## Stack
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/DutchVandaline/LeetCode/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
