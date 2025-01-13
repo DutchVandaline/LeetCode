@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0141-linked-list-cycle](https://github.com/DutchVandaline/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0203-remove-linked-list-elements](https://github.com/DutchVandaline/LeetCode/tree/master/0203-remove-linked-list-elements) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DutchVandaline/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Two Pointers
 |  |
 | ------- |
@@ -43,4 +44,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/DutchVandaline/LeetCode/tree/master/0203-remove-linked-list-elements) |
+## Math
+|  |
+| ------- |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DutchVandaline/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 <!---LeetCode Topics End-->
