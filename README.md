@@ -55,4 +55,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/DutchVandaline/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/DutchVandaline/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+## Array
+|  |
+| ------- |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/DutchVandaline/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/DutchVandaline/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 <!---LeetCode Topics End-->
